@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx"
+  },
+  "extends": "@buyee.me-ui/ts-config/base.json",
+  "include": ["src"]
+}

@@ -1,0 +1,4 @@
+{
+  "extends": "@buyee.me-ui/ts-config/react.json",
+  "include": ["src"]
+}
