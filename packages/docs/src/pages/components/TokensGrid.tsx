@@ -39,11 +39,12 @@ export function TokensGrid({ tokens, hasRemValue = false }: TokensGridProps) {
           >
             <Box
               css={{
-                display: 'flow',
+                display: 'flex',
                 height: '3rem',
                 width: '65%',
 
-                paddingLeft: '$18',
+                alignItems: 'center',
+                justifyContent: 'center',
 
                 borderTopRightRadius: 0,
                 borderBottomRightRadius: 0,
