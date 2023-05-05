@@ -27,12 +27,5 @@ const config = {
     }
     return config;
   },
-  refs: {
-    'design-system': {
-      title: 'Buyee.me Design System',
-      url: 'https://0svaldojunior.github.io/BuyeeMeDesignSystem/',
-      expanded: false, // Optional, true by default
-    },
-  },
 };
 export default config;
