@@ -21,7 +21,7 @@ const config = {
   docs: {
     autodocs: "tag",
   },
-  viteFinal: async (config, { configType }) => {
+  viteFinal: (config, { configType }) => {
     if (configType === 'PRODUCTION') {
       config.base = '/BuyeeMeDesignSystem/'
     }
