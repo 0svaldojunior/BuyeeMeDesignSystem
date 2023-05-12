@@ -49,11 +49,11 @@ export function TokensGrid({ tokens, hasRemValue = false }: TokensGridProps) {
                 borderTopRightRadius: 0,
                 borderBottomRightRadius: 0,
 
-                background: colors.gray700,
+                background: '$gray700',
                 border: `2px solid ${colors.gray700}`,
               }}
             >
-              <Text as="h1">{key}</Text>
+              <Text size={'4xl'}>{key}</Text>
             </Box>
 
             <Box
@@ -67,7 +67,7 @@ export function TokensGrid({ tokens, hasRemValue = false }: TokensGridProps) {
                 alignItems: 'center',
                 justifyContent: 'center',
 
-                background: colors.gray700,
+                background: '$gray700',
                 border: `2px solid ${colors.gray700}`,
               }}
             >
@@ -82,29 +82,3 @@ export function TokensGrid({ tokens, hasRemValue = false }: TokensGridProps) {
     </Box>
   )
 }
-
-// return (
-//   <table className="tokensGrid">
-//     <thead>
-//       <tr>
-//         <th>Name</th>
-//         <th>Value</th>
-//         {hasRemValue && <th>Pixels</th>}
-//       </tr>
-//     </thead>
-
-//     <tbody>
-//       {Object.entries(tokens).map(([key, value]) => {
-//         return (
-//           <tr key={key}>
-//             <td>{key}</td>
-//             <td>{value}</td>
-//             {hasRemValue && (
-//               <td>{Number(value.replace('rem', '')) * 16}px</td>
-//             )}
-//           </tr>
-//         )
-//       })}
-//     </tbody>
-//   </table>
-// )
