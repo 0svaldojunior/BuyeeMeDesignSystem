@@ -1,6 +1,12 @@
 # @buyee.me-ui/react
 
-## 2.0.0
+## 1.0.0
+
+### Major Changes
+
+- Test to downgrade Major Version
+
+## 1.0.0
 
 ### Major Changes
 
