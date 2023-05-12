@@ -10,6 +10,7 @@ export const colors = {
   purple: '#800080',
   pink: '#FF00FF',
   orange: '#FFA500',
+  transparent: 'rgba(0, 0, 0, 0)',
 
   // Back with opacity
   blackAlpha50: 'rgba(0, 0, 0, 0.05)',
